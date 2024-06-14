@@ -1,0 +1,110 @@
+{
+  "configVersion": 1,
+  "timestamp": 1718397414861,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.js",
+        "/manifest.webmanifest",
+        "/polyfills.js",
+        "/runtime.js",
+        "/styles.css",
+        "/vendor.js"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/img/back-view-young-man-with-dog-seaside.jpg",
+        "/assets/img/background.jpeg",
+        "/assets/img/dpets.jpg",
+        "/assets/img/facebook.png",
+        "/assets/img/footer.jpg",
+        "/assets/img/google-mas.png",
+        "/assets/img/instagram.png",
+        "/assets/img/logo.gif",
+        "/assets/img/v1.jpg",
+        "/assets/img/vet_gen.jpeg",
+        "/background.jpeg",
+        "/dpets.jpg",
+        "/footer.jpg",
+        "/vet_gen.jpeg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "petcare-api",
+      "patterns": [
+        "http:\\/\\/127\\.0\\.0\\.1:8000\\/.*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 10,
+      "maxAge": 4320000000,
+      "timeoutMs": 1000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/assets/img/back-view-young-man-with-dog-seaside.jpg": "599385bae74b9600fb2f30e77c761765a42eb555",
+    "/assets/img/background.jpeg": "ceb1138e31c1b9e98e76d5a3f67307bb2a8e6e12",
+    "/assets/img/dpets.jpg": "09dc8393b0060aa923485d8e9ab356de86a3e0c5",
+    "/assets/img/facebook.png": "ffe1b94ee47b1b1dd710a8f5f210d14371e5fe2c",
+    "/assets/img/footer.jpg": "3b36d0c9bc9bba83d562d0f0452a5d57ca9f594c",
+    "/assets/img/google-mas.png": "58c201cc5c177d1b49f5b2260bdff244841786aa",
+    "/assets/img/instagram.png": "4a7f28de768f32be5d6c209a4080fcb3ddffc0ea",
+    "/assets/img/logo.gif": "19f324c3168079a445e15e3818919453bdfc63b9",
+    "/assets/img/v1.jpg": "88f53f143df87430efeee17c743508aeb6b36811",
+    "/assets/img/vet_gen.jpeg": "32976a0f1fd9fd54f9d25316d414508d561ecc20",
+    "/background.jpeg": "ceb1138e31c1b9e98e76d5a3f67307bb2a8e6e12",
+    "/dpets.jpg": "09dc8393b0060aa923485d8e9ab356de86a3e0c5",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/footer.jpg": "3b36d0c9bc9bba83d562d0f0452a5d57ca9f594c",
+    "/index.html": "58f3b3806169c2cbddd0badf47a0d85cab0eea4d",
+    "/main.js": "4c28734948857dfe2a0d9d5af191cd5c129c48bd",
+    "/manifest.webmanifest": "98c9e2c9391376e62e4e556e9bcfc9484b0b00a2",
+    "/polyfills.js": "7dce782b8278a9e718d0d7272b69f08403c04f4e",
+    "/runtime.js": "293f2b9604e456272608d927b6502fba2c0dd9c4",
+    "/styles.css": "9fcda61017af0b27acef3a5eeb665f90bf1fccde",
+    "/vendor.js": "56628099b74020fe4e19f674f4c594c912b03f5e",
+    "/vet_gen.jpeg": "32976a0f1fd9fd54f9d25316d414508d561ecc20"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
